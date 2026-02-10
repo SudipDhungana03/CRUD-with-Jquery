@@ -1,0 +1,30 @@
+form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  text-transform: capitalize;
+}
+
+.form-control {
+  display: grid;
+  grid-template-columns: 1fr 100px;
+}
+
+.form-input {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.form-control .btn {
+  background: #06b6d4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.form-control .btn:hover {
+  background: #0e7490;
+}
